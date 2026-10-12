@@ -289,6 +289,7 @@ td code { white-space: nowrap; }
 .page-head p { color: var(--ink-muted); font-size: 19px; margin: 0; max-width: 40em; }
 .notice { background: #fff6dc; color: #4d3800; border: 1px solid #f0d98a; border-radius: 12px; padding: 14px 18px; margin-bottom: 28px; }
 @media (prefers-color-scheme: dark) { .notice { background: #2a2310; color: #f3e2a8; border-color: #5a4a18; } }
+@media (min-width: 621px) { .grid.dl { grid-template-columns: repeat(2, 1fr); } }
 .dl .card .btn { display: flex; margin: 10px 0; }
 .dl .card ul { margin-top: 16px; }
 .card.soon { opacity: .8; }
