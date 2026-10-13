@@ -292,6 +292,7 @@ td code { white-space: nowrap; }
 @media (min-width: 621px) { .grid.dl { grid-template-columns: repeat(2, 1fr); } }
 .dl .card .btn { display: flex; margin: 10px 0; }
 .dl .card ul { margin-top: 16px; }
+.dl .card .arm { color: var(--muted); font-size: 15px; margin: 4px 0 0; }
 .card.soon { opacity: .8; }
 .badge { display: inline-block; font-size: 12px; font-weight: 600; letter-spacing: .02em; background: var(--accent-soft); color: var(--accent-text); padding: 4px 10px; border-radius: 999px; vertical-align: middle; margin-left: 6px; }
 .plan { display: flex; flex-direction: column; }
