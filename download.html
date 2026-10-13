@@ -4,12 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Download ApexDesk for Windows and Linux</title>
-<meta name="description" content="Download ApexDesk 1.0 for Windows (normal or portable) and Linux (.deb, .rpm, Arch or portable); Mac coming soon. Free, no account.">
+<meta name="description" content="Download ApexDesk 1.0 for Windows (installer, zip or portable), macOS, Linux (.deb, .rpm, Arch or portable) and Android, on x86-64 and ARM. Free, no account.">
 <link rel="canonical" href="https://apexdesk.github.io/download.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="ApexDesk">
 <meta property="og:title" content="Download ApexDesk">
-<meta property="og:description" content="Free, for Windows and Linux.">
+<meta property="og:description" content="Free, for Windows, macOS, Linux and Android.">
 <meta property="og:url" content="https://apexdesk.github.io/download.html">
 <meta property="og:image" content="https://apexdesk.github.io/img/og.jpg">
 <meta property="og:locale" content="en_US">
@@ -51,20 +51,24 @@
       <div class="card">
         <h2>Windows</h2>
         <p>64-bit Windows 10 and 11.</p>
-        <a class="btn btn-primary" href="https://github.com/apexdesk/apexdesk/releases/download/v1.0.0/apexdesk-1.0.0-windows-x86_64.zip">Windows (.zip)</a>
+        <a class="btn btn-primary" href="https://github.com/apexdesk/apexdesk/releases/download/v1.0.0/ApexDesk-1.0.0-x64.msi">Installer (.msi)</a>
+        <a class="btn btn-ghost" href="https://github.com/apexdesk/apexdesk/releases/download/v1.0.0/apexdesk-1.0.0-windows-x86_64.zip">Without installing (.zip)</a>
         <a class="btn btn-ghost" href="https://github.com/apexdesk/apexdesk/releases/download/v1.0.0/apexdesk-1.0.0-windows-x86_64-portable.zip">Portable (.zip)</a>
+        <p class="arm">ARM (Snapdragon, Copilot+ PCs): <a href="https://github.com/apexdesk/apexdesk/releases/download/v1.0.0/apexdesk-1.0.0-windows-aarch64.zip">.zip</a> · <a href="https://github.com/apexdesk/apexdesk/releases/download/v1.0.0/apexdesk-1.0.0-windows-aarch64-portable.zip">portable</a></p>
         <ul>
-          <li>Nothing to install: unzip it and run ApexDesk.exe.</li>
+          <li>The installer adds ApexDesk to the Start menu and to “Open with”, and leaves your default applications alone.</li>
+          <li>The .zip needs no installing: unzip it and run ApexDesk.exe.</li>
           <li>The portable version keeps its settings next to it, ready for a USB stick, and writes nothing to the registry or your profile.</li>
         </ul>
       </div>
       <div class="card">
         <h2>Linux</h2>
-        <p>Ubuntu 20.04, Debian 11, Fedora 32 or newer, and other 64-bit distributions.</p>
+        <p>Ubuntu 20.04, Debian 11, Fedora 32 or newer, and other 64-bit distributions, on x86-64 and ARM.</p>
         <a class="btn btn-primary" href="https://github.com/apexdesk/apexdesk/releases/download/v1.0.0/apexdesk_1.0.0_amd64.deb">Debian, Ubuntu, Mint (.deb)</a>
         <a class="btn btn-ghost" href="https://github.com/apexdesk/apexdesk/releases/download/v1.0.0/apexdesk-1.0.0-1.x86_64.rpm">Fedora, openSUSE (.rpm)</a>
         <a class="btn btn-ghost" href="https://github.com/apexdesk/apexdesk/releases/download/v1.0.0/apexdesk-bin-1.0.0-1-x86_64.pkg.tar.zst">Arch, Manjaro (.pkg.tar.zst)</a>
         <a class="btn btn-ghost" href="https://github.com/apexdesk/apexdesk/releases/download/v1.0.0/apexdesk-1.0.0-linux-x86_64-portable.tar.gz">Portable (.tar.gz)</a>
+        <p class="arm">ARM (Raspberry Pi 4 and 5, ARM servers): <a href="https://github.com/apexdesk/apexdesk/releases/download/v1.0.0/apexdesk_1.0.0_arm64.deb">.deb</a> · <a href="https://github.com/apexdesk/apexdesk/releases/download/v1.0.0/apexdesk-1.0.0-1.aarch64.rpm">.rpm</a> · <a href="https://github.com/apexdesk/apexdesk/releases/download/v1.0.0/apexdesk-1.0.0-linux-aarch64-portable.tar.gz">portable</a></p>
         <ul>
           <li>The packages add it to the applications menu and to “Open with”, and leave your default applications alone.</li>
           <li>The portable version runs from its folder, with its settings next to it.</li>
@@ -80,14 +84,17 @@
           <li>Everything but the database tab, with touch gestures and the system’s clipboard.</li>
         </ul>
       </div>
-      <div class="card soon">
-        <h2>Mac <span class="badge">Coming soon</span></h2>
-        <p>For macOS.</p>
+      <div class="card">
+        <h2>Mac</h2>
+        <p>macOS 11 Big Sur or newer, Apple silicon and Intel.</p>
+        <a class="btn btn-primary" href="https://github.com/apexdesk/apexdesk/releases/download/v1.0.0/apexdesk-1.0.0-macos.dmg">macOS (.dmg)</a>
         <ul>
-          <li>The Mac version is on its way.</li>
+          <li>Open the disk image and drag ApexDesk to Applications.</li>
+          <li>It isn’t notarized by Apple yet: the first time, right-click ApexDesk and choose <strong>Open</strong>.</li>
         </ul>
       </div>
     </div>
+    <p class="fine-print"><strong>Open-source builds.</strong> The Windows installer and the macOS and ARM versions are built on GitHub from the <a href="https://github.com/apexdesk/apexdesk">open-source code</a>, without ApexDesk Empresa’s business features. Everything else is the same.</p>
     <p class="fine-print"><strong>Windows SmartScreen.</strong> ApexDesk isn’t signed yet, so Windows may say “Windows protected your PC” the first time. Click <strong>More info</strong>, then <strong>Run anyway</strong>.</p>
   </div>
 </section>
@@ -101,7 +108,8 @@
       <div class="card">
         <h3>System</h3>
         <ul>
-          <li>Windows 10 or 11, or Linux, on 64-bit x86 processors.</li>
+          <li>Windows 10 or 11, or Linux, on 64-bit x86 or ARM processors.</li>
+          <li>macOS 11 or newer, on Apple silicon or Intel.</li>
           <li>Android 8.0 or newer on 64-bit ARM, with OpenGL ES 3.0.</li>
           <li>Disk space: the program takes <span data-fig="exe_win">70</span> MB on Windows and <span data-fig="exe_linux">62</span> MB on Linux.</li>
           <li>No graphics card needed.</li>
